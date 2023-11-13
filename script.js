@@ -5,6 +5,6 @@ function enviar() {
         icon: "success",
         title: "Formulario enviado correctamente",
         showConfirmButton: false,
-        timer: 2000
+        timer: 5000
       });
 }
