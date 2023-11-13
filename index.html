@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario Resposabilidad</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <form action="https://formsubmit.co/s.cliente@trolbis.com" method="POST">
+            <img class="logo" src="./Trolbis_BgTransparente 3000x3000 (1).png" alt="">
+            <img class="img" src="./T_BgTransparente 3000x3000.png" alt="">
+            <h1>Formulario General de  Exención de Responsabilidad</h1>
+            <p>
+                Yo, <input type="text" id="input_res" name="nombre"> con documento único de identidad No <input type="text" id="input_res" name="Cedula"> ASUMO TODOS LOS RIESGOS DE PARTICIPAR EN CUALQUIERA / TODAS LAS ACTIVIDADES (tanto grupales como individuales) llevadas a cabo EN EL VIAJE INTERNACIONAL MEDELLIN COLOMBIA, EN LAS FECHAS DEL 14 AL 19 DE NOVIEMBRE del 2023, incluyendo a modo de ejemplo y sin limitación, cualquier riesgo que pueda surgir por negligencia o descuido por parte de las personas o entidades liberadas, por equipos o bienes peligrosos o defectuosos que sean de su propiedad, mantenidos o controlados por ellos, o por su posible responsabilidad sin culpa.  
+            </p>
+
+            <div class="informacion">
+                <p>
+                    <b>CERTIFICO</b> que estoy en buena forma física, que tengo suficiente preparación o capacitación para participar en esta actividad y que no he sido recomendado por un profesional médico cualificado para no participar. 
+                </p>
+
+                <p>
+                    <b>CERTIFICO</b> que no hay motivos o problemas relacionados con la salud que impidan mi participación en esta actividad. 
+                </p>
+
+                <p>
+                    <b>CERTIFICO</b> que he adquirido un seguro médico y de viajero que cubre tales riesgos y dan a conocer toda la información pertinente, médica y personal, a mi compañía de seguros.
+                </p>
+
+                <p>
+                    Reconozco que los titulares, patrocinadores y organizadores de la actividad en la que puedo participar utilizarán este Formulario de exención de responsabilidad por accidente y exención de responsabilidad, y que regirá mis acciones y responsabilidades en dicha actividad. 
+                </p>
+
+                <p>
+                    Yo reconozco que TROLBIS TRAVEL AGENCY y sus directores, funcionarios, voluntarios, representantes y agentes NO son responsables de los errores, omisiones o actos de cualquier parte o entidad que realice una actividad específica en su nombre.
+                </p>
+
+                <p>
+                    Por la presente doy mi consentimiento para recibir tratamiento médico que pueda considerarse conveniente en caso de lesión, accidente y/o enfermedad durante esta actividad.  
+                </p>
+
+                <p>
+                    Entiendo que mientras participo en esta actividad, puedo ser fotografiado. Estoy de acuerdo en permitir que mi imagen, video o película sea utilizada para cualquier propósito legítimo por parte de los titulares de actividades, productores, patrocinadores, organizadores y cesionarios.  
+                </p>
+
+                <p>
+                    El Formulario de exención de responsabilidad y exención de responsabilidad de accidentes se interpretará de manera amplia para proporcionar una exención en la medida máxima permitida por la ley aplicable.  
+                </p>
+
+                <p>
+                    CERTIFICO QUE HE LEÍDO ESTE DOCUMENTO Y ENTIENDO COMPLETAMENTE SU CONTENIDO. SOY CONSCIENTE DE QUE ESTO ES UNA EXENCIÓN DE RESPONSABILIDAD Y UN CONTRATO Y LO FIRMO CON MI PROPIA Y LIBRE VOLUNTAD. 
+                </p>
+            </div>
+
+            <h1>Firma</h1>
+
+            <div class="content_firma">
+                <div class="content_infomacion">
+                    <div class="firma">
+                        <input type="text" id="Participante" name="Participante" class="inputs">
+                        <label for="Participante">Nombre y Firma del participante </label>
+                    </div>
+
+                    <div class="firma">
+                        <input type="text" id="Empresa" class="inputs" name="Empresa" value="TROLBIS S.R.L"  disabled>
+                        <label for="Empresa">Nombre / Sello y Firma del Liberado </label>
+                    </div>
+
+                    <div class="firma">
+                        <input type="date" id="Fecha" name="Fecha" class="inputs" value="2023-11-14"  disabled>
+                        <label for="Fecha">Fecha</label>
+                    </div>
+                </div>
+            </div>
+            
+            <input type="submit" class="btn" value="Enviar" onclick="enviar()">
+
+            <input type="hidden" name="_next" value="https://www.trolbis.com/">
+            <input type="hidden" name="_captcha" value="false">
+            
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
