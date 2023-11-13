@@ -101,6 +101,7 @@ label{
     width: 650px;
     height: 650px;
     position: absolute;
+    margin: 0;
     top: 30%;
     opacity: 0.1;
 }
@@ -187,6 +188,16 @@ label{
         font-weight: bold;
         color: hsl(0, 0%, 17%);
         cursor: pointer;
+    }
+
+    .img{
+        display: flex;
+        width: 390px;
+        height: 390px;
+        position: absolute;
+        margin: 0;
+        top: 45%;
+        opacity: 0.1;
     }
     
 }
